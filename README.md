@@ -23,7 +23,7 @@ It was concluded that although the MLP achieved a reasonable score for recall, i
 
 # Literature Review
 
-There are several different strategies that have been taken in developing an accurate method that predicts the success of early stage companies. 
+There are several different strategies that have been taken in developing an accurate method that predicts the success of early stage companies.  
 
 One of the earliest examples in this field, published in 2003, showcases a rule-based expert system for predicting company acquisition [1]. Although the model achieves a success rate of 70%, the effectiveness of the work is very limited as a dataset of only 200 startups was considered.
 
