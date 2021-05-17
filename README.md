@@ -31,7 +31,7 @@ Similarly, H. Littunen and H. Niittykangas analysed 200 companies based in Finla
 
 A common strategy used to predict the success or failure of a startup involves using a logistic regression, shown in the work conducted by R. N. Lussier and S. Pfeifer[4]. In this study, by reviewing 20 different previous works, 15 dependent variables were obtained. The work has also been broadened and modelled for different countries, including Chile, Croatia and the USA [5],[6] with varying outcomes. For example, in the USA only four out of the 15 variables were deemed to be statistically significant. Additionally, this study is also very limited as it considers a small sample size.
 
-` `Work by R. Nahata, published in 2008, looked specifically into the venture capital investment performance and connected it to the reputation of the VC firm. It was shown that VC firms with a higher reputation are more likely to help they’re portfolio companies achieve successful exits [7].
+Work by R. Nahata, published in 2008, looked specifically into the venture capital investment performance and connected it to the reputation of the VC firm. It was shown that VC firms with a higher reputation are more likely to help they’re portfolio companies achieve successful exits [7].
 
 Furthermore, S. Hoenen’s work used a linear regression model to investigate if patents increase VC investment for biotechnology companies in the United States [14]. The companies studied were incorporated between 1974 and 2011, and attributes that define the startups included the number of patents owned, investment funding received directly from VCs and regional information among other attributes.
 
@@ -295,7 +295,7 @@ A plot is then created of the model evaluation results, and the spread and the m
 
 Scikit-learn’s StratifiedKFold and cross\_val\_score was used for the implementation.
 
-Clustering
+## Clustering
 
 
 In the last section, the use of K-means clustering, was also explored. K-means clustering is an unsupervised algorithm, as a result the target feature was first dropped before applying the algorithm. 
@@ -314,21 +314,21 @@ The ML classifier algorithm with the highest predictive accuracy was then retrai
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.005.png)
 
-*Figure*  1 Distribution of Successful vs Unsuccessful Startups*
+Figure 1 Distribution of Successful vs Unsuccessful Startups
 
 
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.006.png)
 
-*Figure*  2 Startup age distribution in years*
+Figure 2 Startup age distribution in years
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.007.png)
 
-*Figure*  3 Startup closure times in months*
+Figure 3 Startup closure times in months
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.008.png)
 
-*Figure* 4 Startup founded year distribution*
+Figure 4 Startup founded year distribution
 
 
 From figure 4, it can be seen that startup creation began to increase significantly in the late 1990s (when the first internet companies started to emerge) . It flattened in the early 2000s ( as a result of the dotcom bust) for a short period of time, before it reached all-time highs in the late 2000s.
@@ -341,13 +341,13 @@ From figure 4, it can be seen that startup creation began to increase significan
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.009.png)
 
-*Figure *  5 Startup founding year distribution after the year of 1980*
+Figure 5 Startup founding year distribution after the year of 1980
 
 Startup creation can be seen really taking off after 1980, when the first technology companies  came into the scene.
 
 
 
-*Table  SEQ Table \\* ARABIC 1 Top 20 countries represented in the dataset*
+Table 1 Top 20 countries represented in the dataset
 
 |**Country**|**count**|
 | :- | :- |
@@ -375,31 +375,31 @@ Startup creation can be seen really taking off after 1980, when the first techno
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.010.png)
 
-*Figure  *  6 Top 10 subjects undertaken by startup founders/co-founders/CEOs*
+Figure 6 Top 10 subjects undertaken by startup founders/co-founders/CEOs
 
 
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.011.png)
 
-*Figure* 7 Top 5 degrees types undertaken by startup founders/co-founders/CEOs*
+Figure 7 Top 5 degrees types undertaken by startup founders/co-founders/CEOs
 
 
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.012.png)
 
-*Figure* 8 Top 10 institutions attended by startup founders/co-founders/CEOs*
+Figure 8 Top 10 institutions attended by startup founders/co-founders/CEOs
 
 
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.013.png)
 
-*Figure* 9 Distribution of startups with a twitter account in the dataset*
+Figure 9 Distribution of startups with a twitter account in the dataset
 
 ### Startup status
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.014.png)
 
-*Figure*  10 Status of startups in the dataset*
+Figure 10 Status of startups in the dataset
 
 Before Crunchbase failing startups were not recorded, as a result a survival bias will exist. There is an over-representation of companies created before Crunchbase came into the scene. In reality, the number of failed companies outnumbers the number of operating companies significantly. 
 
@@ -408,7 +408,7 @@ Before Crunchbase failing startups were not recorded, as a result a survival bia
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.015.png)
 
-*Figure* 11 Status of startups in the top-5 countries*
+Figure 11 Status of startups in the top-5 countries
 
 
 
@@ -424,14 +424,14 @@ Before Crunchbase failing startups were not recorded, as a result a survival bia
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.016.png)
 
-*Figure*  12 Top market categories of startups*
+Figure 12 Top market categories of startups
 
 
 Software is the most dominant market by far. Top 5 market categories are all internet based (with exception to ‘Other’).
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.017.png)
 
-*Figure *  13 Top market categories in the top 4 countries*
+Figure 13 Top market categories in the top 4 countries
 \***
 
 
@@ -449,7 +449,7 @@ Software and internet-based categories are prevalent in all four countries.
 
 
 
-*Table*  2 Market categories where most start-ups closed*
+Table 2 Market categories where most start-ups closed
 
 |**Market categories where most start-ups closed**|
 | :- |
@@ -468,7 +468,7 @@ Software and internet-based categories are prevalent in all four countries.
 
 
 
-*Table *  3 Markets where the least number of start-ups closed*
+Table 3 Markets where the least number of start-ups closed
 
 |**Markets where the least number of start-ups closed**|
 | :- |
@@ -489,7 +489,7 @@ Software and internet-based categories are prevalent in all four countries.
 
 
 
-*Table*  4 Market categories where the greatest number of start-ups were acquired*
+Table 4 Market categories where the greatest number of start-ups were acquired
 
 |Market categories where the greatest number of start-ups were acquired|
 | :- |
@@ -520,16 +520,16 @@ Software and internet-based categories are prevalent in all four countries.
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.018.png)
 
-*Figure* 14 Total funding allocated to the top 10% of startups*
+Figure 14 Total funding allocated to the top 10% of startups
 
 
-*Table*  5 Total funding (top 10 startups)*
+*Table* 5 Total funding (top 10 startups)
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.019.png)
 
 
 
-*Table*  6 Status vs funding round break-down*
+*Table*  6 Status vs funding round break-down
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.020.png)
 
@@ -538,21 +538,21 @@ Software and internet-based categories are prevalent in all four countries.
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.021.png)
 
-*Figure* 15 Status vs funding round plot*
+*Figure* 15 Status vs funding round plot
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.022.png)
 
-*Figure* 16 Word cloud using the words in the startup tag list column*
+*Figure* 16 Word cloud using the words in the startup tag list column
 
 The most prevalent words are all associated to internet-based businesses.
 ### Missing values and correlation matrix
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.023.png)
 
-*Figure * 17 Missing values (yellow) on the dataset*
+*Figure* 17 Missing values (yellow) on the dataset
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.024.png)
 
-*Figure*  18 Correlation matrix heatmap*
+*Figure* 18 Correlation matrix heatmap
 
 There is a strong inverse correlation between status\_cat and labels. This makes sense as the satus\_cat feature was one of the attributes used in making the labels feature.
 
@@ -596,7 +596,7 @@ Confusion Matrix of train data:  [[42978    16]
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.025.png)
 
-*Figure*  19 SVM ROC curve*
+*Figure*  19 SVM ROC curve
 
 
 
@@ -629,7 +629,7 @@ Confusion Matrix of train data:  [[42964    30]
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.026.png)
 
-*Figure *  20 DT ROC curve*
+*Figure* 20 DT ROC curve
 
 
 
@@ -668,7 +668,7 @@ Confusion Matrix of train data:  [[42988     6]
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.027.png)
 
-*Figure *  21 RF ROC curve*
+*Figure* 21 RF ROC curve
 
 
 
@@ -706,7 +706,7 @@ Confusion Matrix of train data:  [[42586   408]
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.028.png)
 
-*Figure* 22 NB ROC curve*
+*Figure* 22 NB ROC curve
 
 
 
@@ -743,13 +743,13 @@ Confusion Matrix of train data:  [[42828   166]
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.029.png)
 
-*Figure* 23 MLP ROC curve*
+*Figure* 23 MLP ROC curve
 
 ### Comparison between the models
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.030.png)
 
-*Figure* 24 Comparison of the different models*
+*Figure* 24 Comparison of the different models
 
 
 
@@ -764,7 +764,7 @@ Using the elbow method, the number of clusters k, was chosen to be 30.
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.031.png)
 
-*Figure*  25 Cluster number vs SSE*
+*Figure*  25 Cluster number vs SSE
 ### MLP + K-Means clustering
 
 
