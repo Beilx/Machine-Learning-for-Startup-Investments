@@ -314,21 +314,21 @@ The ML classifier algorithm with the highest predictive accuracy was then retrai
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.005.png)
 
-Figure 1 Distribution of Successful vs Unsuccessful Startups
+*Figure* 1 Distribution of Successful vs Unsuccessful Startups
 
 
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.006.png)
 
-Figure 2 Startup age distribution in years
+*Figure* 2 Startup age distribution in years
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.007.png)
 
-Figure 3 Startup closure times in months
+*Figure* 3 Startup closure times in months
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.008.png)
 
-Figure 4 Startup founded year distribution
+*Figure* 4 Startup founded year distribution
 
 
 From figure 4, it can be seen that startup creation began to increase significantly in the late 1990s (when the first internet companies started to emerge) . It flattened in the early 2000s ( as a result of the dotcom bust) for a short period of time, before it reached all-time highs in the late 2000s.
@@ -341,13 +341,13 @@ From figure 4, it can be seen that startup creation began to increase significan
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.009.png)
 
-Figure 5 Startup founding year distribution after the year of 1980
+*Figure* 5 Startup founding year distribution after the year of 1980
 
 Startup creation can be seen really taking off after 1980, when the first technology companies  came into the scene.
 
 
 
-Table 1 Top 20 countries represented in the dataset
+*Table* 1 Top 20 countries represented in the dataset
 
 |**Country**|**count**|
 | :- | :- |
@@ -375,31 +375,31 @@ Table 1 Top 20 countries represented in the dataset
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.010.png)
 
-Figure 6 Top 10 subjects undertaken by startup founders/co-founders/CEOs
+*Figure* 6 Top 10 subjects undertaken by startup founders/co-founders/CEOs
 
 
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.011.png)
 
-Figure 7 Top 5 degrees types undertaken by startup founders/co-founders/CEOs
+*Figure* 7 Top 5 degrees types undertaken by startup founders/co-founders/CEOs
 
 
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.012.png)
 
-Figure 8 Top 10 institutions attended by startup founders/co-founders/CEOs
+*Figure* 8 Top 10 institutions attended by startup founders/co-founders/CEOs
 
 
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.013.png)
 
-Figure 9 Distribution of startups with a twitter account in the dataset
+*Figure* 9 Distribution of startups with a twitter account in the dataset
 
 ### Startup status
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.014.png)
 
-Figure 10 Status of startups in the dataset
+*Figure* 10 Status of startups in the dataset
 
 Before Crunchbase failing startups were not recorded, as a result a survival bias will exist. There is an over-representation of companies created before Crunchbase came into the scene. In reality, the number of failed companies outnumbers the number of operating companies significantly. 
 
@@ -408,7 +408,7 @@ Before Crunchbase failing startups were not recorded, as a result a survival bia
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.015.png)
 
-Figure 11 Status of startups in the top-5 countries
+*Figure* 11 Status of startups in the top-5 countries
 
 
 
@@ -424,15 +424,14 @@ Figure 11 Status of startups in the top-5 countries
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.016.png)
 
-Figure 12 Top market categories of startups
+*Figure* 12 Top market categories of startups
 
 
 Software is the most dominant market by far. Top 5 market categories are all internet based (with exception to ‘Other’).
 
 ![](Aspose.Words.77fd421c-8fc6-4a9f-8309-7408e15a47cf.017.png)
 
-Figure 13 Top market categories in the top 4 countries
-\***
+*Figure* 13 Top market categories in the top 4 countries
 
 
 Software and internet-based categories are prevalent in all four countries.
@@ -451,10 +450,10 @@ Software and internet-based categories are prevalent in all four countries.
 
 Table 2 Market categories where most start-ups closed
 
-|**Market categories where most start-ups closed**|
-| :- |
-||**status**|**prop**|**quantity**|
-|**category\_code**||||
+||**Market categories where most start-ups closed**|||
+|:-|:-:|:-:|:-:|
+|**category\_code**|**status**|**prop**|**quantity**|
+|||||
 |**messaging**|closed|0.085106|20|
 |**semiconductor**|closed|0.050710|25|
 |**social**|closed|0.045596|44|
@@ -467,13 +466,12 @@ Table 2 Market categories where most start-ups closed
 |**mobile**|closed|0.027610|142|
 
 
-
 Table 3 Markets where the least number of start-ups closed
 
-|**Markets where the least number of start-ups closed**|
-| :- |
-||**status**|**prop**|**quantity**|
-|**category\_code**||||
+||**Markets where the least number of start-ups closed**|||
+|:-|:-:|:-:|:-:|
+|**category\_code**|**status**|**prop**|**quantity**|
+|||||
 |**legal**|closed|0.003597|2|
 |**health**|closed|0.004614|4|
 |**education**|closed|0.004757|9|
@@ -491,10 +489,10 @@ Table 3 Markets where the least number of start-ups closed
 
 Table 4 Market categories where the greatest number of start-ups were acquired
 
-|Market categories where the greatest number of start-ups were acquired|
-| :- |
-||**status**|**prop**|**quantity**|
-|**category\_code**||||
+||Market categories where the greatest number of start-ups were acquired|||
+|:-|:-:|:-:|:-:|
+|**category\_code**|**status**|**prop**|**quantity**|
+|||||
 |**semiconductor**|acquired|0.215010|106|
 |**security**|acquired|0.101754|87|
 |**biotech**|acquired|0.094805|250|
@@ -931,5 +929,4 @@ These organisations are the future of how companies will look like and behave. A
 
 
 
-` `PAGE   \\* MERGEFORMAT 48
 
